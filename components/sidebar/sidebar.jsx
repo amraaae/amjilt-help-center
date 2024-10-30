@@ -112,7 +112,79 @@ function Sidebar() {
                     </li>
                     <li>
                       <Link
-                        href="/users/create"
+                        href="/Nuur/Angi"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Анги</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/Nuur/Huvaari"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Хичээлийн хуваарь</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/Nuur/Sanhuu"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Санхүү</span>
+                      </Link>
+                    </li>
+                  </ul>
+                </li>
+
+                {/* Танхим Section */}
+                <li>
+                  <button
+                    onClick={toggleProducts}
+                    className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
+                  >
+                    <span className="flex-1 ms-3">Танхим</span>
+                    <svg
+                      className={`w-5 h-5 transition duration-200 ${
+                        isProductsOpen ? "rotate-90" : ""
+                      }`}
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                  <ul
+                    className={`ml-4 space-y-2 ${
+                      isProductsOpen ? "block" : "hidden"
+                    }`}
+                  >
+                    <li>
+                      <Link
+                        href="/Nuur/Sambar"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Сургалтууд</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/Nuur/Hereglegch"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Хөтөлбөр хичээлүүд</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/Nuur/Surgalttow"
                         className="flex items-center p-2 text-gray-900 rounded-lg group"
                       >
                         <span className="ms-3">Анги</span>
@@ -123,7 +195,7 @@ function Sidebar() {
                         href="/users/create"
                         className="flex items-center p-2 text-gray-900 rounded-lg group"
                       >
-                        <span className="ms-3">Хичээлийн хуваарь</span>
+                        <span className="ms-3">Хичээлийн жил</span>
                       </Link>
                     </li>
                     <li>
@@ -131,58 +203,26 @@ function Sidebar() {
                         href="/users/create"
                         className="flex items-center p-2 text-gray-900 rounded-lg group"
                       >
-                        <span className="ms-3">Санхүү</span>
+                        <span className="ms-3">Ээлж - ЕБС</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/users/create"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Хичээлийн улирал</span>
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="/users/create"
+                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      >
+                        <span className="ms-3">Барилга байгууламж</span>
                       </Link>
                     </li>
                   </ul>
-                </li>
-              </ul>
-            </li>
-
-            {/* Products Section */}
-            <li>
-              <button
-                onClick={toggleProducts}
-                className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg group"
-              >
-                <span className="flex-1 ms-3">Түгээмэл асуулт</span>
-                <svg
-                  className={`w-5 h-5 transition duration-200 ${
-                    isProductsOpen ? "rotate-90" : ""
-                  }`}
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 5l7 7-7 7"
-                  />
-                </svg>
-              </button>
-              <ul
-                className={`ml-4 space-y-2 ${
-                  isProductsOpen ? "block" : "hidden"
-                }`}
-              >
-                <li>
-                  <Link
-                    href="/products/all"
-                    className="flex items-center p-2 text-gray-900 rounded-lg group"
-                  >
-                    <span className="ms-3">All Products</span>
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/products/create"
-                    className="flex items-center p-2 text-gray-900 rounded-lg group"
-                  >
-                    <span className="ms-3">Create Product</span>
-                  </Link>
                 </li>
               </ul>
             </li>
