@@ -57,7 +57,7 @@ function Sidebar() {
               <ul
                 className={`ml-4 space-y-2 ${isUsersOpen ? "block" : "hidden"}`}
               >
-                {/* Самбар Section */}
+                {/* Нүүр Section */}
                 <li>
                   <button
                     onClick={toggleSambar}
@@ -134,93 +134,92 @@ function Sidebar() {
                         <span className="ms-3">Санхүү</span>
                       </Link>
                     </li>
-                  </ul>
-                </li>
-
-                {/* Танхим Section */}
-                <li>
-                  <button
-                    onClick={toggleProducts}
-                    className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
-                  >
-                    <span className="flex-1 ms-3">Танхим</span>
-                    <svg
-                      className={`w-5 h-5 transition duration-200 ${
-                        isProductsOpen ? "rotate-90" : ""
-                      }`}
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M9 5l7 7-7 7"
-                      />
-                    </svg>
-                  </button>
-                  <ul
-                    className={`ml-4 space-y-2 ${
-                      isProductsOpen ? "block" : "hidden"
-                    }`}
-                  >
+                    {/* Танхим Section */}
                     <li>
-                      <Link
-                        href="/Nuur/Sambar"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                      <button
+                        onClick={toggleProducts}
+                        className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
-                        <span className="ms-3">Сургалтууд</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/Nuur/Hereglegch"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        <span className="flex-1 ms-3">Танхим</span>
+                        <svg
+                          className={`w-5 h-5 transition duration-200 ${
+                            isProductsOpen ? "rotate-90" : ""
+                          }`}
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor"
+                        >
+                          <path
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth={2}
+                            d="M9 5l7 7-7 7"
+                          />
+                        </svg>
+                      </button>
+                      <ul
+                        className={`ml-4 space-y-2 ${
+                          isProductsOpen ? "block" : "hidden"
+                        }`}
                       >
-                        <span className="ms-3">Хөтөлбөр хичээлүүд</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/Nuur/Surgalttow"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
-                      >
-                        <span className="ms-3">Анги</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/users/create"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
-                      >
-                        <span className="ms-3">Хичээлийн жил</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/users/create"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
-                      >
-                        <span className="ms-3">Ээлж - ЕБС</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/users/create"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
-                      >
-                        <span className="ms-3">Хичээлийн улирал</span>
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="/users/create"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
-                      >
-                        <span className="ms-3">Барилга байгууламж</span>
-                      </Link>
+                        <li>
+                          <Link
+                            href="/Nuur/Sambar"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Сургалтууд</span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/Nuur/Hereglegch"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Хөтөлбөр хичээлүүд</span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/Nuur/Surgalttow"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Анги</span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/users/create"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Хичээлийн жил</span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/users/create"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Ээлж - ЕБС</span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/users/create"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Хичээлийн улирал</span>
+                          </Link>
+                        </li>
+                        <li>
+                          <Link
+                            href="/users/create"
+                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                          >
+                            <span className="ms-3">Барилга байгууламж</span>
+                          </Link>
+                        </li>
+                      </ul>
                     </li>
                   </ul>
                 </li>
