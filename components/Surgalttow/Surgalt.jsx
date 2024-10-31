@@ -127,7 +127,6 @@ function Surgalttow() {
               </div>
             </div>
           </div>
-          <h2 className="text-lg font-medium text-gray-800">Дэлгэцийн зүүн дээд хэсэгт байх ногоон өнгийн нэмэх гэсэн дээр дарна.</h2>
         </div>
       </div>
     </div>
