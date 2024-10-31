@@ -9,19 +9,27 @@ function Sambar() {
         Дэлгэцийн зүүн дээд талд самбар хэсэг байрлах ба энэ хуудсаас та
         статистик мэдээлэлүүдтэй дэлгэрэнгүй танилцах боломжтой болно.
       </p>
-      <div>
-        <ul className="max-w-md space-y-1 text-black list-disc list-inside">
-          <li>Нийт төгссөн ангийн тоо</li>
-          <li>Идэвхитэй анги</li>
-          <li>Сургалтууд</li>
-          <li>Нийт сурагчидийн тоо</li>
-          <li>Багш ажилчидийн тоо</li>
-          <li>Сургуулийн зарлалууд</li>
-          <li>Төлбөрийн мэдээлэл /Нийт төлбөр, Төлөгдсөн, Дутуу/</li>
+      <div class="flex flex-col md:mb-auto flex-1 ">
+        <ul class="flex flex-col gap-3 w-full sm:max-w-md">
+          <li class="w-full bg-gray-100 p-2 rounded-md">
+            Нийт төгссөн ангийн тоо
+          </li>
+          <li class="w-full bg-gray-100 p-2 rounded-md">Идэвхитэй анги</li>
+          <li class="w-full bg-gray-100 p-2 rounded-md">Сургалтууд</li>
+          <li class="w-full bg-gray-100 p-2 rounded-md">
+            Нийт сурагчидийн тоо
+          </li>
+          <li class="w-full bg-gray-100 p-2 rounded-md">Багш ажилчидийн тоо</li>
+          <li class="w-full bg-gray-100 p-2 rounded-md">
+            Сургуулийн зарлалууд
+          </li>
+          <li class="w-full bg-gray-100 p-2 rounded-md">
+            Төлбөрийн мэдээлэл /Нийт төлбөр, Төлөгдсөн, Дутуу/
+          </li>
         </ul>
       </div>
 
-      <div className="py-5">
+      <div className="py-4">
         <Image
           className="w-[1000px] h-[479px] object-contain"
           src="/Picture1.jpg"
@@ -34,14 +42,22 @@ function Sambar() {
         <p className="text-lg py-5">
           Самбар хэсгийн дэлгэцийн баруун талд мэдээллүүд харагдана.
         </p>
-        <ul className="max-w-md space-y-1 text-black list-disc list-inside">
-          <li>Хувийн мэдээлэл</li>
-          <li>Нууцлал тохиргоо</li>
-          <li>Гарах</li>
-          <li>Зарлал үүсгэх /Холбоос/</li>
-          <li>Хичээллийн ирц оруулах /Холбоос/</li>
-          <li>Контент оруулах /Холбоос/</li>
-        </ul>
+        <div class="flex flex-col md:mb-auto flex-1 ">
+          <ul class="flex flex-col gap-3 w-full sm:max-w-md">
+            <li class="w-full bg-gray-100 p-2 rounded-md">Хувийн мэдээлэл</li>
+            <li class="w-full bg-gray-100 p-2 rounded-md">Нууцлал тохиргоо</li>
+            <li class="w-full bg-gray-100 p-2 rounded-md">Гарах</li>
+            <li class="w-full bg-gray-100 p-2 rounded-md">
+              Зарлал үүсгэх/Холбоос/
+            </li>
+            <li class="w-full bg-gray-100 p-2 rounded-md">
+              Хичээллийн ирц оруулах/Холбоос/
+            </li>
+            <li class="w-full bg-gray-100 p-2 rounded-md">
+              Контент оруулах/Холбоос/
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   );
