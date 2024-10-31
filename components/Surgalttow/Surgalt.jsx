@@ -138,9 +138,9 @@ function Surgalttow() {
       <div>
         <Image
           className="w-full"
-          src="/Picture6.jpg"
-          width={1000}
-          height={400}
+          src="/surgalt3.png"
+          width={10000}
+          height={10000}
           alt="Picture6"
         />
       </div>
