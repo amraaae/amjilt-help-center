@@ -167,6 +167,93 @@ function Surgalttow() {
           </h2>
         </div>
       </div>
+
+      <div className="py-4">
+        <Image
+          className="w-full"
+          src="/Picture7.jpg"
+          width={1000}
+          height={1000}
+          alt="Picture7"
+        />
+      </div>
+
+      <p className="text-lg py-5">
+        Нэмэх хэсэгт дарсны дараа дэлгэц дараах байдлаар харагдана. /ТМС/
+      </p>
+
+      <div className="hero ">
+        <div className="hero-content w-full flex-col lg:flex-row">
+          <Image
+            src="/hutulbur.png"
+            width={10000}
+            height={10000}
+            alt="Picture5"
+            className="max-w-md"
+          />
+          <div className="px-10 w-full">
+            <div className="flex flex-col space-y-6">
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">1</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Сургалтын нэрийг оруулана.
+                </h2>
+              </div>
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">2</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Төлбөрийн дүнг зөвхөн тоон утгаар оруулана.
+                </h2>
+              </div>
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">3</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Ангийн оныг зөвхөн тоон утгаар оруулана.
+                </h2>
+              </div>
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">4</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Сургалтын талаарх танилцуулгыг оруулана.
+                </h2>
+              </div>
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">5</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Төлөв хэсэгт идэвхитэй гэж сонгоно.
+                </h2>
+              </div>
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-8 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">6</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Хамрагдах хөтөлбөрүүд хэсгээс өмнө нь нэмсэн хөтөлбөрөө
+                  сонгоно.
+                </h2>
+              </div>
+              <div className="flex space-x-4 items-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+                  <span className="text-white text-sm font-bold">7</span>
+                </div>
+                <h2 className="text-lg font-medium text-gray-800">
+                  Оруулсан мэдээлэлээ шалгаад хадгалах хэсэгт дарна.
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
