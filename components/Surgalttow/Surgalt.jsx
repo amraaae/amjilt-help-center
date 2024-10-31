@@ -171,9 +171,9 @@ function Surgalttow() {
       <div className="py-4">
         <Image
           className="w-full"
-          src="/Picture7.jpg"
-          width={1000}
-          height={1000}
+          src="/surgalt4.png"
+          width={10000}
+          height={10000}
           alt="Picture7"
         />
       </div>
@@ -254,15 +254,17 @@ function Surgalttow() {
           </div>
         </div>
       </div>
-      <p className="text-lg py-5">Шинэ анги хадгалсаны дараа доорх байдлаар харагдана. /ТМС/</p>
+      <p className="text-lg py-5">
+        Шинэ анги хадгалсаны дараа доорх байдлаар харагдана. /ТМС/
+      </p>
 
       <div>
         <Image
-          className="w-[1000px] object-contain"
-          src="/Picture8.jpg"  
+          className="w-full object-contain"
+          src="/angi.png"
           alt="Picture of the author"
-          width={1000}
-          height={479}
+          width={10000}
+          height={10000}
         />
       </div>
     </div>
