@@ -136,6 +136,135 @@ function Sanhuu() {
           height={10000}
         />
       </div>
+
+      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+          Төлбөр хэсэгт дарахад дэлгэцэнд дараах байдлаар харагдана.
+        </h1>
+      </div>
+
+      <div className="flex flex-col md:mb-auto flex-1">
+        <ul className="flex flex-col gap-3 w-full sm:max-w-md">
+          <li className="w-full bg-gray-100 p-2 rounded-md">Шинээр үүсгэх</li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">Төлбөр шалгах</li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">
+            Төлбөрийн мэдээллийг эксэл файлаар татах зэрэг үйлдэл хийх
+            боломжтой.
+          </li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">
+            Зүүн далд байх хэсэгт анги, хөнгөлөлт,төлбөрийн сонгож төлбөр шүүж
+            харах боломжтой.
+          </li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">
+            Төлбөр үүсгэх гэсэн ногоон өнгийн хэсэгт дарна.
+          </li>
+        </ul>
+      </div>
+
+      <div className="py-5">
+        <Image
+          className="w-full"
+          src="/Picture16.jpg"
+          alt="sanhuu"
+          width={1000}
+          height={800}
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+          Нэмэх хэсэгт дарсны дараа дэлгэц дараах байдлаар сонголтууд
+          харагдана.Төлбөр үүсгэх төрлөө сонгоод дарна.
+        </h1>
+      </div>
+
+      <div>
+        <Image
+          className="w-full"
+          src="/Picture17.jpg"
+          alt="sanhuu"
+          width={1000}
+          height={800}
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+          Төлбөр үүсгэх төрлөө сонгосоны дараа төлбөр үүсгэх анги эсвэл сурагчыг
+          сонгоно төлбөрийн нэмэжлэл үүсэнэ.
+        </h1>
+      </div>
+
+      <div>
+        <Image
+          className="w-full"
+          src="/Picture18.jpg"
+          alt="sanhuu"
+          width={1000}
+          height={800}
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+          Орлого,зарлага цуцлах хүсэлт хэсэгт дарсанаар дараах байдлаар
+          харагдана.Дэлгэцийн зүүн талд байрлах хэсэгт орлого эстэл зарлага
+          гүйлгээний эсвэл системийн огноогоор хүссэн орлого,зарлагаа шүүж харах
+          боломжтой.
+        </h1>
+      </div>
+
+      <div>
+        <Image
+          className="w-full"
+          src="/Picture19.jpg"
+          alt="sanhuu"
+          width={1000}
+          height={800}
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+          Орлого,зарлага дарахад дэлгэцэнд дараах байдлаар харагдана.
+        </h1>
+      </div>
+
+      <div className="flex flex-col md:mb-auto flex-1">
+        <ul className="flex flex-col gap-3 w-full sm:max-w-md">
+          <li className="w-full bg-gray-100 p-2 rounded-md">Орлого нэмэх</li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">Зарлага нэмэх</li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">
+            Гүйлгээ шүүх зэрэг үйлдэл хийх боломжтой
+          </li>
+        </ul>
+      </div>
+
+      <div className="py-5">
+        <Image
+          className="w-full"
+          src="/Picture20.jpg"
+          alt="sanhuu"
+          width={1000}
+          height={800}
+        />
+      </div>
+
+      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+          Нэхэмжлэх үүсэхгүй хэсэгт дараах байдлаар харагдана.
+        </h1>
+      </div>
+
+      <div className="py-5">
+        <Image
+          className="w-full"
+          src="/Picture21.jpg"
+          alt="sanhuu"
+          width={1000}
+          height={800}
+        />
+      </div>
     </div>
   );
 }
