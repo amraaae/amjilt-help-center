@@ -89,7 +89,7 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Sambar"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
                         <span className="ms-3">Самбар</span>
                       </Link>
@@ -97,7 +97,7 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Hereglegch"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
                         <span className="ms-3">Хэрэглэгчид</span>
                       </Link>
@@ -105,7 +105,7 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Surgalttow"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
                         <span className="ms-3">Сургалтын төв</span>
                       </Link>
@@ -113,7 +113,7 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Angi"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
                         <span className="ms-3">Анги</span>
                       </Link>
@@ -121,7 +121,7 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Huvaari"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
                         <span className="ms-3">Хичээлийн хуваарь</span>
                       </Link>
@@ -129,7 +129,7 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Sanhuu"
-                        className="flex items-center p-2 text-gray-900 rounded-lg group"
+                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                       >
                         <span className="ms-3">Санхүү</span>
                       </Link>
@@ -166,7 +166,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/Nuur/Sambar"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                           >
                             <span className="ms-3">Сургалтууд</span>
                           </Link>
@@ -174,7 +174,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/Nuur/Hereglegch"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                           >
                             <span className="ms-3">Хөтөлбөр хичээлүүд</span>
                           </Link>
@@ -182,7 +182,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/Nuur/Surgalttow"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                           >
                             <span className="ms-3">Анги</span>
                           </Link>
@@ -190,7 +190,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                           >
                             <span className="ms-3">Хичээлийн жил</span>
                           </Link>
@@ -198,7 +198,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                           >
                             <span className="ms-3">Ээлж - ЕБС</span>
                           </Link>
@@ -206,7 +206,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
                           >
                             <span className="ms-3">Хичээлийн улирал</span>
                           </Link>
@@ -214,7 +214,7 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg group"
+                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100s group"
                           >
                             <span className="ms-3">Барилга байгууламж</span>
                           </Link>
