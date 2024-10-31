@@ -12,8 +12,12 @@ function Hereglegch() {
 
       <div className="flex flex-col md:mb-auto flex-1">
         <ul className="flex flex-col gap-3 w-full sm:max-w-md">
-          <li className="w-full bg-gray-100 p-2 rounded-md">Сурагчдын жагсаалт</li>
-          <li className="w-full bg-gray-100 p-2 rounded-md">Багшийн жагсаалт</li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">
+            Сурагчдын жагсаалт
+          </li>
+          <li className="w-full bg-gray-100 p-2 rounded-md">
+            Багшийн жагсаалт
+          </li>
           <li className="w-full bg-gray-100 p-2 rounded-md">
             Асран хамгаалагчийн жагсаалт
           </li>
@@ -25,10 +29,10 @@ function Hereglegch() {
 
       <div className="py-4">
         <Image
-        className="w-[649px] h-[310px] object-cover"
-          src="/Picture2.jpg"
-          width={5000}
-          height={5000}
+          className="w-[1000px] h-[479px] object-contain"
+          src="/manager1.png"
+          width={10000}
+          height={10000}
           alt="Picture1"
         ></Image>
       </div>
