@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import { House } from "lucide-react";
 
 function Sidebar() {
   const [isUsersOpen, setIsUsersOpen] = useState(false);
@@ -36,6 +37,7 @@ function Sidebar() {
                 onClick={toggleUsers}
                 className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
               >
+                <House width={18} height={18} />
                 <span className="flex-1 ms-3">Үндсэн ойлголт</span>
                 <svg
                   className={`w-5 h-5 transition duration-200 ${
