@@ -88,7 +88,7 @@ function Angi() {
                 </h2>
               </div>
               <div className="flex space-x-4 items-center">
-                <div className="rounded-full h-6 w-8 bg-blue-500 flex items-center justify-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
                   <span className="text-white text-sm font-bold">6</span>
                 </div>
                 <h2 className="text-lg font-medium text-gray-800">

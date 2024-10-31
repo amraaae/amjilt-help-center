@@ -31,10 +31,10 @@ function Sanhuu() {
       <div className="py-5">
         <Image
           className="w-full"
-          src="/Picture12.jpg"
+          src="/sanhuu1.png"
           alt="sanhuu"
-          width={400}
-          height={400}
+          width={10000}
+          height={10000}
         />
       </div>
 
@@ -58,10 +58,10 @@ function Sanhuu() {
       <div className="py-5">
         <Image
           className="w-full"
-          src="/Picture14.jpg"
+          src="/sanhuu2.png"
           alt="sanhuu"
-          width={400}
-          height={400}
+          width={10000}
+          height={10000}
         />
       </div>
 
@@ -74,7 +74,7 @@ function Sanhuu() {
       <div className="hero ">
         <div className="hero-content w-full flex-col lg:flex-row">
           <Image
-            src="/Picture13.jpg"
+            src="/sanhuu3.png"
             width={10000}
             height={10000}
             alt="Picture13"
@@ -130,10 +130,10 @@ function Sanhuu() {
       <div>
         <Image
           className="w-full"
-          src="/Picture15.jpg"
+          src="/sanhuu4.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
     </div>
