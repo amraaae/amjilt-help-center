@@ -131,6 +131,42 @@ function Surgalttow() {
           </div>
         </div>
       </div>
+
+      <p className="text-lg py-5">
+        Шинэ хөтөлбөр хичээл хадгалсаны дараа доорх байдлаар харагдана. /ТМС/
+      </p>
+      <div>
+        <Image
+          className="w-full"
+          src="/Picture6.jpg"
+          width={1000}
+          height={400}
+          alt="Picture6"
+        />
+      </div>
+      <p className="text-lg py-5">
+        Шинэ хөтөлбөр нэмэсний дараа тухайн хөтөлбөрийн сургалтыг шинээр нэмж
+        өгнө. /ТМС/{" "}
+      </p>
+      <div className="flex flex-col space-y-6">
+        <div className="flex space-x-4 items-center">
+          <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+            <span className="text-white text-sm font-bold">1</span>
+          </div>
+          <h2 className="text-lg font-medium text-gray-800">
+            Сургалтын төв хуудсын сургалтууд хэсгийг сонгоно.
+          </h2>
+        </div>
+        <div className="flex space-x-4 items-center">
+          <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
+            <span className="text-white text-sm font-bold">2</span>
+          </div>
+          <h2 className="text-lg font-medium text-gray-800">
+            Дэлгэцийн зүүн дээд хэсэгт байх ногоон өнгийн нэмэх гэсэн дээр
+            дарна.
+          </h2>
+        </div>
+      </div>
     </div>
   );
 }
