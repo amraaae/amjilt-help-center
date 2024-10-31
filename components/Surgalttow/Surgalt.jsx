@@ -29,10 +29,10 @@ function Surgalttow() {
 
       <div className="py-4">
         <Image
-          className="w-full h-[500px]"
-          src="/Picture3.jpg"
-          width={1000}
-          height={1000}
+          className="w-full h-[479px]"
+          src="/surgalt.png"
+          width={10000}
+          height={10000}
           alt="Picture1"
         ></Image>
       </div>
@@ -48,13 +48,18 @@ function Surgalttow() {
           <div class="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
             <span class="text-white text-sm font-bold">1</span>
           </div>
-          <h2 class="text-lg font-medium text-gray-800">Сургалтын төв хуудсын хөтөлбөр хичээлүүд хэсгийг сонгоно.</h2>
+          <h2 class="text-lg font-medium text-gray-800">
+            Сургалтын төв хуудсын хөтөлбөр хичээлүүд хэсгийг сонгоно.
+          </h2>
         </div>
         <div class="flex space-x-4 items-center">
           <div class="rounded-full h-6 w-6 bg-gray-300 flex items-center justify-center">
             <span class="text-white text-sm font-bold">2</span>
           </div>
-          <h2 class="text-lg font-medium text-gray-800">Дэлгэцийн зүүн дээд хэсэгт байх ногоон өнгийн нэмэх гэсэн дээр дарна.</h2>
+          <h2 class="text-lg font-medium text-gray-800">
+            Дэлгэцийн зүүн дээд хэсэгт байх ногоон өнгийн нэмэх гэсэн дээр
+            дарна.
+          </h2>
         </div>
       </div>
     </div>
