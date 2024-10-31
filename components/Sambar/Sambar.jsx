@@ -32,9 +32,9 @@ function Sambar() {
       <div className="py-4">
         <Image
           className="w-[1000px] h-[479px] object-contain"
-          src="/Picture1.jpg"
-          width={5000}
-          height={5000}
+          src="/sambar.png"
+          width={10000}
+          height={10000}
           alt="Picture1"
         ></Image>
       </div>
