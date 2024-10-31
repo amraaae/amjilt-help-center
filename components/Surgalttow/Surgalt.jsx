@@ -254,6 +254,17 @@ function Surgalttow() {
           </div>
         </div>
       </div>
+      <p className="text-lg py-5">Шинэ анги хадгалсаны дараа доорх байдлаар харагдана. /ТМС/</p>
+
+      <div>
+        <Image
+          className="w-[1000px] object-contain"
+          src="/Picture8.jpg"  
+          alt="Picture of the author"
+          width={1000}
+          height={479}
+        />
+      </div>
     </div>
   );
 }
