@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Sambar() {
   return (
     <div className="w-full px-4">
