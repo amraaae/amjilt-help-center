@@ -23,11 +23,11 @@ function Huvaari() {
 
       <div className="py-4">
         <Image
-          className="w-[1000px] h-[479px] "
-          src="/Picture9.jpg"
+          className="w-full"
+          src="/huvaari1.png"
           alt="Picture of the author"
-          width={1000}
-          height={479}
+          width={10000}
+          height={10000}
         />
       </div>
 
