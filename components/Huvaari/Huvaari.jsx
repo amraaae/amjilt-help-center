@@ -12,7 +12,7 @@ function Huvaari() {
         </h1>
       </div>
 
-      <div className="flex flex-col md:mb-auto flex-1 ">
+      <div className="flex flex-col md:mb-auto flex-1">
         <ul className="flex flex-col gap-3 w-full sm:max-w-md">
           <li className="w-full bg-gray-100 p-2 rounded-md">
             Тухайн долоо хоногт орох нийт хичээлүүдийн аль гаригт хэддүгээр цаг
@@ -59,10 +59,10 @@ function Huvaari() {
         </h1>
       </div>
 
-      <div className="hero ">
+      <div className="hero">
         <div className="hero-content w-full flex-col lg:flex-row">
           <Image
-            src="/Picture10.jpg"
+            src="/huvaari2.png"
             width={10000}
             height={10000}
             alt="Picture5"
@@ -140,11 +140,11 @@ function Huvaari() {
 
       <div className="py-4">
         <Image
-          className="w-[1000px] h-[479px] "
-          src="/Picture11.jpg"
+          className="w-full"
+          src="/huvaari3.png"
           alt="Picture11"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
     </div>
