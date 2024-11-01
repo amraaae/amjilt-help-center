@@ -6,7 +6,7 @@ function Surgalttow() {
     <div className="w-full px-20">
       <h1 className="text-2xl font-bold">Сургалтын төв</h1>
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Дэлгэцийн зүүн дээд талд сургалтын төв хэсэгт дарж дараах
           мэдээллүүдийг харах боломжтой.
         </h1>
@@ -24,7 +24,7 @@ function Surgalttow() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Дээрх хэсгүүдээс өөрийн мэдээлэл нэмэх шаардлагатай хэсэгээ дарж
           дэлгэцийн зүүн дээд хэсэгт байх ногоон өнгийн нэмэх гэсэн дээр дарж
           мэдээллээ оруулж болно. /ТМС/
@@ -42,7 +42,7 @@ function Surgalttow() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Хэрэв админ шинэ сургалт нэмэх бол эхлээд тухайн сургалтыг хөтөлбөр
           хичээлүүд хэсэгт шинээр оруулах шаардлагатай болно. Шинэ хөтөлбөр
           хичээл нэмэх үедээ дараах зааврын дагуу хийнэ.
@@ -78,7 +78,7 @@ function Surgalttow() {
         />
       </div>
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Нэмэх хэсэгт дарсны дараа дэлгэц дараах байдлаар харагдана. /ТМС/
         </h1>
       </div>
@@ -140,7 +140,7 @@ function Surgalttow() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Шинэ хөтөлбөр хичээл хадгалсаны дараа доорх байдлаар харагдана. /ТМС/
         </h1>
       </div>
@@ -156,7 +156,7 @@ function Surgalttow() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Шинэ хөтөлбөр нэмэсний дараа тухайн хөтөлбөрийн сургалтыг шинээр нэмж
           өгнө. /ТМС/{" "}
         </h1>
@@ -193,7 +193,7 @@ function Surgalttow() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Нэмэх хэсэгт дарсны дараа дэлгэц дараах байдлаар харагдана. /ТМС/
         </h1>
       </div>
@@ -269,22 +269,6 @@ function Surgalttow() {
             </div>
           </div>
         </div>
-      </div>
-
-      <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
-          Шинэ анги хадгалсаны дараа доорх байдлаар харагдана. /ТМС/
-        </h1>
-      </div>
-
-      <div>
-        <Image
-          className="w-[1000px] object-contain"
-          src="/Picture8.jpg"
-          alt="Picture of the author"
-          width={10000}
-          height={10000}
-        />
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ function Sanhuu() {
     <div className="w-full px-20">
       <h1 className="text-2xl font-bold">Санхүү</h1>
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Шинэ анги хадгалсаны дараа доорх байдлаар харагдана. /ТМС/
         </h1>
       </div>
@@ -39,7 +39,7 @@ function Sanhuu() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Хөнгөлөлт хэсэгт дарахад дэлгэцэнд дараах байдлаар харагдана.
         </h1>
       </div>
@@ -66,7 +66,7 @@ function Sanhuu() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Нэмэх хэсэгт дарсны дараа дэлгэц дараах байдлаар харагдана.
         </h1>
       </div>
@@ -91,7 +91,7 @@ function Sanhuu() {
                 </h2>
               </div>
               <div className="flex space-x-4 items-center">
-                <div className="rounded-full h-6 w-9 bg-blue-500 flex items-center justify-center">
+                <div className="rounded-full h-6 w-8 bg-blue-500 flex items-center justify-center">
                   <span className="text-white text-sm font-bold">2</span>
                 </div>
                 <h2 className="text-lg font-medium text-gray-800">
@@ -109,7 +109,7 @@ function Sanhuu() {
                 </h2>
               </div>
               <div className="flex space-x-4 items-center">
-                <div className="rounded-full h-6 w-7 bg-blue-500 flex items-center justify-center">
+                <div className="rounded-full h-6 w-6 bg-blue-500 flex items-center justify-center">
                   <span className="text-white text-sm font-bold">4</span>
                 </div>
                 <h2 className="text-lg font-medium text-gray-800">
@@ -122,7 +122,7 @@ function Sanhuu() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Шинээр оруулсан хөнгөлөлт дараах байдлаар харагдана.
         </h1>
       </div>
@@ -138,7 +138,7 @@ function Sanhuu() {
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Төлбөр хэсэгт дарахад дэлгэцэнд дараах байдлаар харагдана.
         </h1>
       </div>
@@ -164,15 +164,15 @@ function Sanhuu() {
       <div className="py-5">
         <Image
           className="w-full"
-          src="/Picture16.jpg"
+          src="/sanhuu5.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Нэмэх хэсэгт дарсны дараа дэлгэц дараах байдлаар сонголтууд
           харагдана.Төлбөр үүсгэх төрлөө сонгоод дарна.
         </h1>
@@ -181,15 +181,15 @@ function Sanhuu() {
       <div>
         <Image
           className="w-full"
-          src="/Picture17.jpg"
+          src="/sanhuu6.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Төлбөр үүсгэх төрлөө сонгосоны дараа төлбөр үүсгэх анги эсвэл сурагчыг
           сонгоно төлбөрийн нэмэжлэл үүсэнэ.
         </h1>
@@ -198,15 +198,15 @@ function Sanhuu() {
       <div>
         <Image
           className="w-full"
-          src="/Picture18.jpg"
+          src="/sanhuu7.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Орлого,зарлага цуцлах хүсэлт хэсэгт дарсанаар дараах байдлаар
           харагдана.Дэлгэцийн зүүн талд байрлах хэсэгт орлого эстэл зарлага
           гүйлгээний эсвэл системийн огноогоор хүссэн орлого,зарлагаа шүүж харах
@@ -217,15 +217,15 @@ function Sanhuu() {
       <div>
         <Image
           className="w-full"
-          src="/Picture19.jpg"
+          src="/sanhuu8.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Орлого,зарлага дарахад дэлгэцэнд дараах байдлаар харагдана.
         </h1>
       </div>
@@ -243,15 +243,15 @@ function Sanhuu() {
       <div className="py-5">
         <Image
           className="w-full"
-          src="/Picture20.jpg"
+          src="/sanhuu9.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
 
       <div className="flex flex-wrap gap-4 py-5 justify-center text-lg font-serif">
-        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-blue-500 rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
+        <h1 className="bg-gray-100 flex-grow text-black border-l-8 border-[#553ded] rounded-md px-3 py-2 w-full md:w-5/12 lg:w-3/12">
           Нэхэмжлэх үүсэхгүй хэсэгт дараах байдлаар харагдана.
         </h1>
       </div>
@@ -259,10 +259,10 @@ function Sanhuu() {
       <div className="py-5">
         <Image
           className="w-full"
-          src="/Picture21.jpg"
+          src="/sanhuu10.png"
           alt="sanhuu"
-          width={1000}
-          height={800}
+          width={10000}
+          height={10000}
         />
       </div>
     </div>

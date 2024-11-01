@@ -1,9 +1,19 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
-import { House } from "lucide-react";
+import {
+  House,
+  Presentation,
+  UsersRound,
+  Building2,
+  BookOpenText,
+  Album,
+  NotebookPen,
+} from "lucide-react";
+import { usePathname } from "next/navigation";
 
 function Sidebar() {
+  const pathname = usePathname();
   const [isUsersOpen, setIsUsersOpen] = useState(false);
   const [isProductsOpen, setIsProductsOpen] = useState(false);
   const [isSambarOpen, setIsSambarOpen] = useState(false);
@@ -12,6 +22,8 @@ function Sidebar() {
   const toggleProducts = () => setIsProductsOpen(!isProductsOpen);
   const toggleSambar = () => setIsSambarOpen(!isSambarOpen);
 
+  const isActiveLink = (link) => pathname === link || pathname.startsWith(link);
+
   return (
     <div className="w-[20%]">
       <aside
@@ -19,7 +31,7 @@ function Sidebar() {
         className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar"
       >
-        <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 text-black">
+        <div className="h-full px-3 py-4 overflow-y-auto bg-[#553ded] text-[#c7c0f9]">
           <Link href="/" className="flex items-center ps-2.5 mb-5">
             <img
               src="/images.png"
@@ -35,10 +47,15 @@ function Sidebar() {
             <li>
               <button
                 onClick={toggleUsers}
-                className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
+                className="flex items-center p-2 w-full text-left rounded-lg hover:text-gray-100 group"
               >
                 <House width={18} height={18} />
-                <span className="flex-1 ms-3">Үндсэн ойлголт</span>
+                <span
+                  className="flex-1 ms-2
+"
+                >
+                  Үндсэн ойлголт
+                </span>
                 <svg
                   className={`w-5 h-5 transition duration-200 ${
                     isUsersOpen ? "rotate-90" : ""
@@ -63,9 +80,14 @@ function Sidebar() {
                 <li>
                   <button
                     onClick={toggleSambar}
-                    className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
+                    className="flex items-center p-2 w-full text-left rounded-lg hover:text-gray-100 group"
                   >
-                    <span className="flex-1 ms-3">Нүүр</span>
+                    <span
+                      className="flex-1 ms-2
+"
+                    >
+                      Нүүр
+                    </span>
                     <svg
                       className={`w-5 h-5 transition duration-200 ${
                         isSambarOpen ? "rotate-90" : ""
@@ -91,58 +113,88 @@ function Sidebar() {
                     <li>
                       <Link
                         href="/Nuur/Sambar"
-                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                          isActiveLink("/Nuur/Sambar")
+                            ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                            : ""
+                        }`}
                       >
-                        <span className="ms-3">Самбар</span>
+                        <Presentation width={18} height={18} />
+                        <span className="ms-2">Самбар</span>
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="/Nuur/Hereglegch"
-                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                          isActiveLink("/Nuur/Hereglegch")
+                            ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                            : ""
+                        }`}
                       >
-                        <span className="ms-3">Хэрэглэгчид</span>
+                        <UsersRound width={18} height={18} />
+                        <span className="ms-2">Хэрэглэгчид</span>
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="/Nuur/Surgalttow"
-                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                          isActiveLink("/Nuur/Surgalttow")
+                            ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                            : ""
+                        }`}
                       >
-                        <span className="ms-3">Сургалтын төв</span>
+                        <Building2 width={18} height={18} />
+                        <span className="ms-2">Сургалтын төв</span>
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="/Nuur/Angi"
-                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                          isActiveLink("/Nuur/Angi")
+                            ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                            : ""
+                        }`}
                       >
-                        <span className="ms-3">Анги</span>
+                        <BookOpenText width={18} height={18} />
+                        <span className="ms-2">Анги</span>
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="/Nuur/Huvaari"
-                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                          isActiveLink("/Nuur/Huvaari")
+                            ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                            : ""
+                        }`}
                       >
-                        <span className="ms-3">Хичээлийн хуваарь</span>
+                        <Album width={18} height={18} />
+                        <span className="ms-2">Хичээлийн хуваарь</span>
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="/Nuur/Sanhuu"
-                        className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                          isActiveLink("/Nuur/Sanhuu")
+                            ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                            : ""
+                        }`}
                       >
-                        <span className="ms-3">Санхүү</span>
+                        <NotebookPen width={18} height={18} />
+                        <span className="ms-2">Санхүү</span>
                       </Link>
                     </li>
                     {/* Танхим Section */}
                     <li>
                       <button
                         onClick={toggleProducts}
-                        className="flex items-center p-2 w-full text-left text-gray-900 rounded-lg hover:bg-gray-100 group"
+                        className="flex items-center p-2 w-full text-left rounded-lg hover:text-gray-100 group"
                       >
-                        <span className="flex-1 ms-3">Танхим</span>
+                        <span className="flex-1 ms-2">Танхим</span>
                         <svg
                           className={`w-5 h-5 transition duration-200 ${
                             isProductsOpen ? "rotate-90" : ""
@@ -168,57 +220,85 @@ function Sidebar() {
                         <li>
                           <Link
                             href="/Nuur/Sambar"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/Nuur/Sambar")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Сургалтууд</span>
+                            <span className="ms-2">Сургалтууд</span>
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/Nuur/Hereglegch"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/Nuur/Hereglegch")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Хөтөлбөр хичээлүүд</span>
+                            <span className="ms-2">Хөтөлбөр хичээлүүд</span>
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/Nuur/Surgalttow"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/Nuur/Surgalttow")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Анги</span>
+                            <span className="ms-2">Анги</span>
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/users/create")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Хичээлийн жил</span>
+                            <span className="ms-2">Хичээлийн жил</span>
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/users/create")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Ээлж - ЕБС</span>
+                            <span className="ms-2">Ээлж - ЕБС</span>
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100 group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/users/create")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Хичээлийн улирал</span>
+                            <span className="ms-2">Хичээлийн улирал</span>
                           </Link>
                         </li>
                         <li>
                           <Link
                             href="/users/create"
-                            className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-gray-100s group"
+                            className={`flex items-center p-2 rounded-lg hover:text-gray-100 group ${
+                              isActiveLink("/users/create")
+                                ? "text-[#ffffff] bg-[#492feb] font-semibold"
+                                : ""
+                            }`}
                           >
-                            <span className="ms-3">Барилга байгууламж</span>
+                            <span className="ms-2">Барилга байгууламж</span>
                           </Link>
                         </li>
                       </ul>
